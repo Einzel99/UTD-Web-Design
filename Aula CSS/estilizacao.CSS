@@ -1,0 +1,24 @@
+h1 {
+    font-size: 30px;
+    color: brown;
+}
+
+#paragrafo1 {
+    box-sizing: content-box;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color:  rgb(72, 163, 136);
+}
+
+.a {
+    font-size: 20px;
+    width: 100px;
+    padding: 10px;
+    color: red;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}

@@ -1,0 +1,63 @@
+* {
+    margin: 10;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f0f0f0;
+}
+
+.titulo {
+    font-size: 16px;
+}
+
+.info {
+    font-size: 12px;
+    border: none;
+
+    margin: 6px;
+}
+
+.descricao {
+    color: gray;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.price {
+    color: green;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px
+}
+
+.card {
+    width: 200px;
+    border-style: groove;
+    border-color: coral;
+    border: 2px solid blue;
+
+}
+
+.card>img {
+    width: 100%;
+}
+
+.number {
+    font-size: 14px;
+    margin: 5px;
+
+}

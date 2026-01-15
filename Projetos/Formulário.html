@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="cname">Digite seu nome completo.</label><br>
+            <input type="text" name="cname" id="cname" required placeholder="nome"><br>
+        </div>
+        <div>
+            <label for="email">Digite seu e-mail</label><br>
+            <input type="email" name="email" id="email" required placeholder="e-mail"><br>
+        </div>
+        <div>
+            <label for="senha">Digite sua senha</label><br>
+            <input type="password" name="senha" id="senha" required placeholder="senha"><br>
+        </div>
+        <div>
+            <label>Qual sua idade ?</label><br>
+            <input type="number" name="idade" id="idade" min="1"><br>
+        </div>
+        <div>
+            <p>Quais linguagens você tem afinidade ?</p>
+            <br>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html">
+            <br>
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="CSS" id="CSS">
+            <br>
+            <label for="Java">Java</label>
+            <input type="checkbox" name="Java" id="Java">
+            <br>
+            <label for="JavaScript">JavaScript</label>
+            <input type="checkbox" name="JavaScript" id="JavaScript">
+        </div>
+        <div>
+            <p>Qual Palestra você prefere ?</p>
+            <br>
+            <label for="Frontend">Frontend</label>
+            <input type="radio" name="Frontend" id="Frontend">
+            <br>
+            <label for="Backend">Backend</label>
+            <input type="radio" name="Backend" id="Backend">
+        </div>
+        <div>
+            <fieldset>
+            <legend>Endereço</legend>
+            <label for="Estado">Qual o seu estado ?</label>
+            <select name="Estado" id="Estado">
+                <option>CE</option>
+                <option>PE</option>
+                <option>BH</option>
+                <option>RJ</option>
+        </fieldset>
+        </div>
+        <div>
+            <p>Deixe aqui seu comentário.</p>
+            <textarea name="coment" rows="25" col="50"></textarea>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

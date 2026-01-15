@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+    background-color: burlywood;
+    color:black
+
+}
+.price{
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
